@@ -1,7 +1,7 @@
 import sublime, sublime_plugin
 import pickle as pkl
 
-
+# from http://stackoverflow.com/questions/2460177/edit-distance-in-python
 def levenshteinDistance(s1, s2):
     if len(s1) > len(s2):
         s1, s2 = s2, s1
