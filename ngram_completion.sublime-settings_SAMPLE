@@ -1,0 +1,4 @@
+{
+	"path_to_corpus": "PATH_TO_TEXT_FILE_WITH_EVERY_WORD_ON_A_NEW_LINE",
+	"highest_n" : 4
+}
