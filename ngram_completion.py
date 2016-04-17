@@ -102,4 +102,4 @@ class NgramCommand(sublime_plugin.EventListener):
             if c_word_is_unfinished:
                 matches = sorted(matches, key= lambda x: levenshteinDistance(x, c_unfinished_word))
 
-            return matches
+            return list(set(matches))
